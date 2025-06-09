@@ -1,6 +1,6 @@
 <h1 align="center">🏋️‍♂️ BodyIQ</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Stack-FullStack-blueviolet" />
+  <img src="https://img.shields.io/style=for-the-badge/Stack-FullStack-blueviolet" />
   <img src="https://img.shields.io/badge/Built%20With-FastAPI-%23009688" />
   <img src="https://img.shields.io/badge/Frontend-Vite%20+%20React-%2361DAFB" />
   <img src="https://img.shields.io/badge/Design-TailwindCSS%20+%20ShadcnUI-%2300BFFF" />
