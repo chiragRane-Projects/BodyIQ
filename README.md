@@ -1,6 +1,6 @@
 <h1 align="center">🏋️‍♂️ BodyIQ</h1>
 <p align="center">
-  <img src="https://img.shields.io/style=for-the-badge/Stack-FullStack-blueviolet" />
+  <img src="https://img.shields.io/badge/Stack-FullStack-blueviolet" />
   <img src="https://img.shields.io/badge/Built%20With-FastAPI-%23009688" />
   <img src="https://img.shields.io/badge/Frontend-Vite%20+%20React-%2361DAFB" />
   <img src="https://img.shields.io/badge/Design-TailwindCSS%20+%20ShadcnUI-%2300BFFF" />
@@ -86,15 +86,15 @@ Built with ⚡FastAPI, 🧠 AI integrations, 🍽️ food vision models, and a b
 
 ```bash
 # Clone frontend
-git clone https://github.com/yourname/BODYIQ
+git clone https://github.com/yourname/pulseai-frontend
 
 # Install frontend deps
-cd BODYIQ
+cd pulseai-frontend
 npm install
 npm run dev
 
 # Clone backend
-git clone https://github.com/yourname/bodyiq-backend
+git clone https://github.com/yourname/pulseai-backend
 cd pulseai-backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
