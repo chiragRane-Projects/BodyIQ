@@ -1,4 +1,4 @@
-<h1 align="center">🏋️‍♂️ BodyIQ</h1>
+<h1 align="center">🏋️‍♂️ FitVerse</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Stack-FullStack-blueviolet" />
   <img src="https://img.shields.io/badge/Built%20With-FastAPI-%23009688" />
