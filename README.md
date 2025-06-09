@@ -86,15 +86,15 @@ Built with ⚡FastAPI, 🧠 AI integrations, 🍽️ food vision models, and a b
 
 ```bash
 # Clone frontend
-git clone https://github.com/yourname/pulseai-frontend
+git clone https://github.com/yourname/BODYIQ
 
 # Install frontend deps
-cd pulseai-frontend
+cd BODYIQ
 npm install
 npm run dev
 
 # Clone backend
-git clone https://github.com/yourname/pulseai-backend
+git clone https://github.com/yourname/bodyiq-backend
 cd pulseai-backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
