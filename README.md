@@ -17,7 +17,7 @@
 
 ## 🔥 Project Overview
 
-**PulseAI** is an AI-powered fitness tracker and diet coach built for the modern generation. Whether you're trying to bulk, cut, or maintain — PulseAI helps you crush your fitness goals with science, data, and sleek UI.
+**FitVerse** is an AI-powered fitness tracker and diet coach built for the modern generation. Whether you're trying to bulk, cut, or maintain — FitVerse helps you crush your fitness goals with science, data, and sleek UI.
 
 Built with ⚡FastAPI, 🧠 AI integrations, 🍽️ food vision models, and a blazing fast Vite + Tailwind frontend.
 
@@ -87,15 +87,15 @@ Built with ⚡FastAPI, 🧠 AI integrations, 🍽️ food vision models, and a b
 
 ```bash
 # Clone frontend
-git clone https://github.com/yourname/pulseai-frontend
+git clone https://github.com/yourname/FitVerse-frontend
 
 # Install frontend deps
-cd pulseai-frontend
+cd FitVerse-frontend
 npm install
 npm run dev
 
 # Clone backend
-git clone https://github.com/yourname/pulseai-backend
-cd pulseai-backend
+git clone https://github.com/yourname/FitVerse-backend
+cd FitVerse-backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
