@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Stack-FullStack-blueviolet" />
   <img src="https://img.shields.io/badge/Built%20With-FastAPI-%23009688" />
   <img src="https://img.shields.io/badge/Frontend-Vite%20+%20React-%2361DAFB" />
-  <img src="https://img.shields.io/badge/Design-TailwindCSS%20+%20ShadcnUI-%2300BFFF" />
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS%20+%20ShadcnUI-%2300BFFF" />
   <img src="https://img.shields.io/badge/AI-OpenAI%20%2F%20Gemini-orange" />
 </p>
 
