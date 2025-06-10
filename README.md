@@ -1,58 +1,39 @@
 <h1 align="center">🏋️‍♂️ FitVerse</h1>
 <p align="center">🔗 Landing Page: https://fitverse-phi.vercel.app/</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Stack-FullStack-blueviolet" />
+  <img src="https://img.shields.io/badge/Type-Landing%20Page-blueviolet" />
   <img src="https://img.shields.io/badge/Built%20With-FastAPI-%23009688" />
   <img src="https://img.shields.io/badge/Frontend-Vite%20+%20React-%2361DAFB" />
   <img src="https://img.shields.io/badge/Styling-TailwindCSS%20+%20ShadcnUI-%2300BFFF" />
-  <img src="https://img.shields.io/badge/AI-OpenAI%20%2F%20Gemini-orange" />
+  <img src="https://img.shields.io/badge/AI-Vision%20%2F%20GPT%20Concepts-orange" />
 </p>
 
 <p align="center">
-  <b>AI-Powered Fitness & Nutrition Tracker</b><br/>
-  Personalized workouts, smart diet plans, body analytics, and visual food recognition — all in one place.
+  <b>AI-Powered Fitness & Nutrition Concept</b><br/>
+  FitVerse is a showcase of the vision for an intelligent fitness assistant — personalized, intuitive, and future-ready.
 </p>
 
 ---
 
 ## 🔥 Project Overview
 
-**FitVerse** is an AI-powered fitness tracker and diet coach built for the modern generation. Whether you're trying to bulk, cut, or maintain — FitVerse helps you crush your fitness goals with science, data, and sleek UI.
+**FitVerse** is a landing page for an ambitious AI-powered fitness and nutrition platform. While the core functionality is reserved for a future mobile app, this web experience introduces the vision with a sleek, modern UI.
 
-Built with ⚡FastAPI, 🧠 AI integrations, 🍽️ food vision models, and a blazing fast Vite + Tailwind frontend.
+It's the **launchpad** for what’s coming next — a mobile-first AI fitness assistant that understands your body, your goals, and your grind.
 
 ---
 
-## 🚀 Features
+## 🚀 Landing Page Features
 
-### 🧘 Landing + Onboarding
-- Clean, modern landing page
-- Responsive UI with Tailwind & ShadcnUI
-- Dark mode ready
+### ✨ Hero Section
+- Clean and modern UI
+- Mobile-first design using TailwindCSS & ShadcnUI
+- Framer Motion animations
 
-### 🔐 Authentication
-- Email/password signup
-- Google OAuth (coming soon)
-- JWT token-based backend security
-
-### 📊 Fitness Engine
-- Workout Logging: Add/edit/delete workouts
-- Categorize workouts (strength, cardio, HIIT, etc.)
-- Progress dashboard with interactive charts
-
-### 🍎 Nutrition + Diet Plan
-- Log meals, track macros & calories
-- AI-powered meal suggestions based on:
-  - Your goals (gain, cut, maintain)
-  - Food type (veg/non-veg)
-  - Real image uploads with ML inference
-
-### 📅 Smart Dashboard
-- Calendar view of workouts/meals
-- Streak tracker & achievements
-- Real-time BMI calculator, body fat %, fitness verdict
-- AI suggestions like:
-  > "Skipped leg day? Add squats today 💪"
+### 🎨 Visual Polish
+- Consistent design system
+- Responsive layout
+- Dark mode supported
 
 ---
 
@@ -64,22 +45,7 @@ Built with ⚡FastAPI, 🧠 AI integrations, 🍽️ food vision models, and a b
 - [TailwindCSS](https://tailwindcss.com/)
 - [Shadcn/UI](https://ui.shadcn.com/)
 - [Framer Motion](https://www.framer.com/motion/)
-- [Chart.js](https://www.chartjs.org/)
 - [Lucide Icons](https://lucide.dev/)
-
-### ⚙️ Backend
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-- [Pydantic](https://docs.pydantic.dev/)
-- JWT Authentication
-- AI via OpenAI / Gemini API
-- Docker (containerized deployment)
-
----
-
-## 📷 Screenshots
-
-> Coming soon...
 
 ---
 
@@ -87,15 +53,9 @@ Built with ⚡FastAPI, 🧠 AI integrations, 🍽️ food vision models, and a b
 
 ```bash
 # Clone frontend
-git clone https://github.com/yourname/FitVerse-frontend
+git clone https://github.com/yourname/FitVerse
 
 # Install frontend deps
-cd FitVerse-frontend
+cd FitVerse
 npm install
 npm run dev
-
-# Clone backend
-git clone https://github.com/yourname/FitVerse-backend
-cd FitVerse-backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload
