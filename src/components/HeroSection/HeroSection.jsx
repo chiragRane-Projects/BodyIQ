@@ -51,7 +51,7 @@ const HeroSection = () => {
             asChild
             className="inline-block bg-emerald-600 text-lg text-white font-medium py-1 px-4 rounded-xl hover:bg-emerald-700 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-emerald-500/25"
           >
-            <Link to="/login">Start Your Journey</Link>
+            <Link to="#login">Start Your Journey</Link>
           </Button>
         </motion.div>
       </div>

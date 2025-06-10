@@ -7,7 +7,6 @@ import HowItWorks from './components/HowItWorks/HowItWorks';
 import CTABanner from './components/CTABanner/CTABanner';
 import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
-import LoginScreen from './pages/LoginScreen/LoginScreen';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -29,8 +28,6 @@ function App() {
               </>
             }
           />
-          <Route path="/login" element={<LoginScreen />} />
-          <Route path="/signup" element={<div>Signup Page</div>} /> {/* Placeholder */}
         </Routes>
       </BrowserRouter>
     </ClerkProvider>

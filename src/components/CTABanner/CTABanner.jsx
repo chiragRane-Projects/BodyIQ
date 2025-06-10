@@ -40,7 +40,7 @@ const CTABanner = () => {
             className="bg-emerald-600 text-lg text-white font-medium py-3 px-8 rounded-full hover:bg-emerald-700 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-emerald-500/25"
             aria-label="Get started with FitVerse for free"
           >
-            <Link to="/login">Get Started for Free</Link>
+            <Link to="#login">Get Started for Free</Link>
           </Button>
           
         </motion.div>
