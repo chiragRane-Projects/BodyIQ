@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { Button } from '../ui/button';
 
 const CTABanner = () => {
   const variants = {
@@ -7,17 +9,17 @@ const CTABanner = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6 }
+      transition: { duration: 0.6, ease: 'easeOut' }
     }
   };
 
   return (
     <motion.section
-      className="py-16 px-4 bg-gradient-to-r from-emerald-600 to-lime-500 text-white text-center"
+      className="py-16 px-4 bg-gradient-to-r from-emerald-700 to-lime-600 text-white text-center"
       variants={variants}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true }}
+      viewport={{ once: true, margin: '-100px' }}
     >
       <div className="max-w-4xl mx-auto">
         <motion.h2
@@ -27,19 +29,21 @@ const CTABanner = () => {
           Start Your Fitness Journey Today!
         </motion.h2>
         <motion.p
-          className="text-lg md:text-xl mb-8"
+          className="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto"
           variants={variants}
         >
           Join thousands transforming their lives with FitVerse’s AI-powered fitness tracking.
         </motion.p>
-        <motion.a
-          href="#signup"
-          className="inline-block bg-white text-emerald-600 font-medium py-3 px-8 rounded-full 
-                     hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-lg"
-          variants={variants}
-        >
-          Get Started for Free
-        </motion.a>
+        <motion.div className="flex flex-col sm:flex-row justify-center gap-4" variants={variants}>
+          <Button
+            asChild
+            className="bg-emerald-600 text-lg text-white font-medium py-3 px-8 rounded-full hover:bg-emerald-700 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-emerald-500/25"
+            aria-label="Get started with FitVerse for free"
+          >
+            <Link to="/login">Get Started for Free</Link>
+          </Button>
+          
+        </motion.div>
       </div>
     </motion.section>
   );

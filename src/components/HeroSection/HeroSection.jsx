@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Button } from '../ui/button';
 
 const HeroSection = () => {
@@ -10,7 +11,7 @@ const HeroSection = () => {
       y: 0,
       transition: {
         duration: 0.8,
-        when: "beforeChildren",
+        when: 'beforeChildren',
         staggerChildren: 0.2
       }
     }
@@ -40,19 +41,17 @@ const HeroSection = () => {
           FitVerse
         </motion.h1>
         <motion.p
-          className="font-light  text-lg md:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed"
+          className="font-light text-lg md:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed"
           variants={childVariants}
         >
           Train smarter, eat wiser, and level up your body — powered by AI and real data.
         </motion.p>
         <motion.div variants={childVariants}>
           <Button
-            href="#get-started"
-            className="inline-block bg-emerald-600 text-lg text-white font-medium py-1 px-5 rounded-xl
-                     hover:bg-emerald-700 hover:scale-105 transition-all duration-300 shadow-lg
-                     hover:shadow-emerald-500/25"
+            asChild
+            className="inline-block bg-emerald-600 text-lg text-white font-medium py-1 px-4 rounded-xl hover:bg-emerald-700 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-emerald-500/25"
           >
-            Start Your Journey
+            <Link to="/login">Start Your Journey</Link>
           </Button>
         </motion.div>
       </div>
